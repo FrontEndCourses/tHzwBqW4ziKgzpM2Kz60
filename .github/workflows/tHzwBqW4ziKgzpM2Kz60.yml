@@ -1,0 +1,25 @@
+name: 'tHzwB'
+
+on:
+  schedule:
+    - cron: '*/8 * * * *'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout from repo
+      uses: actions/checkout@main
+      with:
+        ref: main
+
+    - name: Install Python latest
+      uses: actions/setup-python@main
+      with:
+        python-version: '3.x'
+        architecture: 'x64'
+
+    - name: Doing fetch and convert
+      run: python tHzwBqW4ziKgzpM2Kz60.py
