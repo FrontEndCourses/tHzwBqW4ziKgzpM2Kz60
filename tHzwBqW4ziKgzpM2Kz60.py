@@ -11,3 +11,6 @@ get_this_url = "https://jt.ximalaya.com//CKwRIJEEjBKLABCbXQCz0Zaz.m4a?channel=rs
 urllib.request.urlretrieve(get_this_url, "1")
 get_this_url = "https://jt.ximalaya.com//CKwRINsEfXocAAgzSACuc5TX.m4a?channel=rss&amp;album_id=49547055&amp;track_id=417416930&amp;uid=250932269&amp;jt=http://audio.xmcdn.com/storages/1244-audiofreehighqps/B7/90/CKwRINsEfXocAAgzSACuc5TX.m4a"
 urllib.request.urlretrieve(get_this_url, "1")
+
+get_this_url = "https://jt.ximalaya.com//GKwRIRwFb7_bAO0xegD5rljY.m4a?channel=rss&album_id=40907109&track_id=474569419&uid=250932269&jt=http://audio.xmcdn.com/storages/c4f6-audiofreehighqps/01/F1/GKwRIRwFb7_bAO0xegD5rljY.m4a"
+urllib.request.urlretrieve(get_this_url, "1")
